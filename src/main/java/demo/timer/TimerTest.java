@@ -14,7 +14,7 @@ public class TimerTest {
                 System.out.println("执行任务myTimeTask: " + DateUtil.now());
 
                 try {
-                    Thread.sleep(4000);
+                    Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -38,7 +38,7 @@ public class TimerTest {
             }
         };
         timer.schedule(myTimeTask, 1000);
-        timer.schedule(myTimeTask2, 3000);
+        timer.schedule(myTimeTask2, 2000);
 
     }
 }
