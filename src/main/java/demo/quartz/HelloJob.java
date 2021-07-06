@@ -25,7 +25,7 @@ public class HelloJob implements Job {
 		System.out.println("jobMsg: "+jobDataMap.getString("message"));
 		System.out.println("job isOk: "+jobDataMap.getBoolean("isOk"));
 		System.out.println("trigger: "+tDataMap.getString("trigger"));
-
+		System.out.println(1);
 	}
 
 }
